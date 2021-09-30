@@ -1,4 +1,4 @@
-package primitivnedatatypes;
+package prvypolrok.primitivnedatatypes;
 
 public class PreteceniePamate {
 
@@ -17,3 +17,4 @@ public class PreteceniePamate {
         System.out.println(" vysledok: " + superVelkeCislo);
     }
 }
+

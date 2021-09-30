@@ -1,4 +1,4 @@
-package primitivnedatatypes;
+package prvypolrok.primitivnedatatypes;
 
 public class PrimitivneDatoveTypy01 {
 
