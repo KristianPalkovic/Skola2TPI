@@ -1,5 +1,7 @@
 package prvypolrok.tyzden39.september29;
 
+import javax.xml.bind.SchemaOutputResolver;
+
 public class String02 {
 
     public static void main(String[] args) {
@@ -18,6 +20,12 @@ public class String02 {
         int indexPriezviska = celeMeno.indexOf(priezvisko);
         celeMeno.indexOf("Palkovic");
         System.out.println(celeMeno.substring(indexPriezviska));
+
+        System.out.println("================================================");
+
+        char charakter = celeMeno.charAt(4);
+        System.out.println(charakter);
+        System.out.println(charakter + 1 );
     }
 }
 
