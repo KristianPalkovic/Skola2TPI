@@ -4,8 +4,6 @@ public class ObsahValca {
 
     public static void main(String[] args){
 
-
-        static void objemValca(){
             double polomer = 4.3;
             double PI = Math.PI;
             double vyska = 4.5;
@@ -17,4 +15,4 @@ public class ObsahValca {
         //du povrchu valaca, obsah elipsy, obsah obvod trojuholnika, obvod a  obsah 6uholnika
 
 
-}}
+}
