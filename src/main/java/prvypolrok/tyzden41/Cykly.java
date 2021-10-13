@@ -10,7 +10,6 @@ public class Cykly {
         int nultyindex =poleCisel[0];
         //vypisanie dlzky pola
         System.out.println(poleCisel.length);
-        for(int i=0; i<poleCisel.length, i++);
 
     }
 }
