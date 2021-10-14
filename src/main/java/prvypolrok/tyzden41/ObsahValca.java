@@ -57,7 +57,7 @@ public class ObsahValca {
 
 
         }
-        //du povrchu valaca, obsah elipsy, obsah obvod trojuholnika, obvod a  obsah 6uholnika
+        //du povrchu valaca, obsah elipsy, obsah obvod trojuholnika, obvod a obsah 6uholnika
 
 
 }
