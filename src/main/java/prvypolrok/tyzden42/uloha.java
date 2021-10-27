@@ -3,9 +3,9 @@ package prvypolrok.tyzden42;
 public class uloha {
 
     public static void main(String[] args) {
-        ParneNeparne(2000);
+        JeNieje(2000);
     }
-    static void ParneNeparne(int x){
+    static void JeNieje(int x){
         if(x % 2 ==0)
         {
             System.out.println("Cislo " + x + " je parne ");
