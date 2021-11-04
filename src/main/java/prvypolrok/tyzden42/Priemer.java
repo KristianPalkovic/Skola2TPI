@@ -3,7 +3,7 @@ package prvypolrok.tyzden42;
 public class Priemer {
 
     public static void main(String[] args) {
-        int[] pole = new int[]{1,46,4,34,5,76,44,34,5,6,6,77};
+        int[] pole = new int[]{1,46,4,34,5,76,44,34,5,6,6,77,};
         priemer(pole);
 
     }
