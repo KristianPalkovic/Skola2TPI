@@ -22,10 +22,16 @@ public class Kalkulacka {
         return c;
     }
 
-    void delenie(double a, double b){
-
-        double c = a / b;
-        System.out.println(c);
+    double delenie(double a, double b){
+        double c;
+        if(b == 0 ) {
+            System.out.println("tak mame problem");
+            c = 0;
+            return c;
+        }else {
+            c = a / b;
+            return c;
+        }
     }
 
     static void nasobenie(double a, double b){
