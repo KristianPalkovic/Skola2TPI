@@ -19,7 +19,7 @@ public class VetvenieKodu {
 
     public static void lenIf(boolean vieJavu, String meno){
 
-        if(vieJavu){
+        if(vieJavu) {
             meno = meno + " vie Javu";
         }
 
