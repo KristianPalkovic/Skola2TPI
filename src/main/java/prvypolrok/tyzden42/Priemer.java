@@ -8,10 +8,13 @@ public class Priemer {
 
     }
 
-    static double priemer(int[] poleCisiel){
-        // tu ma byt riesenie
-        // pomocka priemer vypocitanie sucet clenov/pocet
-
-
+    static double priemer(){
+        int pole[] = new int[] { 23, 1, 5, 78, 22};
+        double vysledok = 0;
+        for(int i=0; i < pole.length; i++){
+            vysledok += pole[i];
+            System.out.println("Scitanie cisiel v poli je : " + vysledok + " a priemer cisiel v poli je: " + vysledok/pole.length);
+        }
+        return vysledok;
     }
 }
