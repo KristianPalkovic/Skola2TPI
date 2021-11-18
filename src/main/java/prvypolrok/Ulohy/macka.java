@@ -2,22 +2,34 @@ package prvypolrok.Ulohy;
 
 public class macka {
 
-    public static boolean main(String[] args) {
+    public static void main(String[] args) {
+        macka(true, 54);
+    }
 
-       public static boolean isCatPlaying(boolean leto,int teplota){
+    private static void macka(boolean b, int i) {
 
-            if(leto){
-                if(){
-
-
+        if(b){
+            if(i > 25){
+                if(i< 45){
+                    System.out.println("macka sa hra");
+                }else {
+                    System.out.println("macka sa nehra");
                 }
 
-            }else{
-
-
+            }else {
+                System.out.println("macka sa nehra");
             }
+        }else {
+            if(i > 25){
+                if(i< 35){
+                    System.out.println("macka sa hra");
+                }else {
+                    System.out.println("macka sa nehra");
+                }
 
-            return false;
+            }else {
+                System.out.println("macka sa nehra");
+            }
         }
     }
 }
