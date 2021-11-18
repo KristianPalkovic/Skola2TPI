@@ -3,10 +3,10 @@ package prvypolrok.Ulohy;
 public class macka {
 
     public static void main(String[] args) {
-        macka(true, 54);
+        Macka(true, 54);
     }
 
-    private static void macka(boolean b, int i) {
+    private static void Macka(boolean b, int i) {
 
         if(b){
             if(i > 25){
