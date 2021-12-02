@@ -27,24 +27,25 @@ public class SwitchDniVtyzdni {
     }
 
     static String denVtyzdniSwitch(int x){
-
+        String denVtyzdni ="";
         switch (x) {
             case 1:
-                return "Pondelok";
+                denVtyzdni = "Pondelok";
             case 2:
-                return "Utorok";
+                denVtyzdni = "Utorok";
             case 3:
-                return "Streda";
+                denVtyzdni = "Streda";
             case 4:
-                return "Štvrtok";
+                denVtyzdni = "Štvrtok";
             case 5:
-                return "Piatok";
+                denVtyzdni = "Piatok";
             case 6:
-                return "Sobota";
+                denVtyzdni = "Sobota";
             case 7:
-                return "Nedela";
+                denVtyzdni = "Nedela";
             default:
-                return "Neplatne cislo";
+                denVtyzdni = "Neplatne cislo";
         }
+        return denVtyzdni;
     }
 }
