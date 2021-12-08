@@ -9,7 +9,8 @@ public class MatematickeUlohy {
         for (int i =0; i < pole.length; i++){
             if (pole[i] %2==0) {
                 if (Math.sqrt(pole[i]) < 4) {
-                    System.out.println(pole[i]);
+                    vysledok = vysledok + pole[i];
+                    //System.out.println(pole[i]);
                 }
             }
         }
