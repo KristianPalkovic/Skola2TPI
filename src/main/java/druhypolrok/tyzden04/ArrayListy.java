@@ -6,6 +6,7 @@ import java.util.Arrays;
 public class ArrayListy {
     public static void main(String[] args) {
         listy();
+        listy2();
     }
 
     void zaklady(){
@@ -57,6 +58,42 @@ public class ArrayListy {
         poleArrayList2.add(5);
         poleArrayList2.toString();
         System.out.println(poleArrayList2);
+
+        //---------------------------------------------------------------
+
+        boolean jePrazdna = poleArrayList2.isEmpty();
+        System.out.println(" je prázdne :" + jePrazdna);
+
+        String vysledok = jePrazdna ? "nie je tam nic" : "obsahuje elementy";
+        System.out.println(" je prazdne :" + vysledok);
+        System.out.println("/////////////////////////");
+        poleArrayList2.clear();
+        jePrazdna = poleArrayList2.isEmpty();
+        System.out.println(" je prazdne :" + jePrazdna);
+        vysledok = jePrazdna ? " nie je tam nic" : "obsahuje elementy";
+        System.out.println(" je prazdne :" + vysledok);
+        System.out.println("velkost pola je :" +poleArrayList2.size());
+
+        //String[] starePole = new String[10];
+
+        poleArrayList2.add(45);
+        poleArrayList2.add(44);
+        poleArrayList2.add(43);
+        poleArrayList2.add(42);
+        System.out.println("obsahuje dané slovo :" +poleArrayList2.contains("dva"));
+
+        ArrayList<String> pole1= new ArrayList<>();
+        pole1.add("pes");
+        pole1.add("macka");
+
+        ArrayList<String> pole2 = new ArrayList<>();
+        pole2.add("macka");
+        pole2.add("pes");
+
+        System.out.println(" su polia rovnake: "+pole1.equals(pole2));
+        System.out.println(pole1);
+        System.out.println(pole2);
+
+
     }
 }
-
