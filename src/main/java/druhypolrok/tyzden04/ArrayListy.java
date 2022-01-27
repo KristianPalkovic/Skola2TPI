@@ -23,12 +23,18 @@ public class ArrayListy {
 
         ArrayList<String> poleArrayList = new ArrayList<>();
         System.out.println(poleArrayList.size());
-        poleArrayList.add(0,"Fero");
-        poleArrayList.add(1,"Gregor");
-        poleArrayList.add(2,"Robert");
-        poleArrayList.add(3,"Roman");
-        poleArrayList.add(4,"Erik");
-        poleArrayList.add(5,"Adam");
+        //poleArrayList.add(0,"Fero");
+        //poleArrayList.add(1,"Gregor");
+        //poleArrayList.add(2,"Robert");
+        //poleArrayList.add(3,"Roman");
+        //poleArrayList.add(4,"Erik");
+        //poleArrayList.add(5,"Adam");
+        poleArrayList.add("Fero");
+        poleArrayList.add("Gregor");
+        poleArrayList.add("Robert");
+        poleArrayList.add("Roman");
+        poleArrayList.add("Erik");
+        poleArrayList.add("Adam");
         poleArrayList.remove(2);
         poleArrayList.toString();
         poleArrayList.set(1,"Zmena");
