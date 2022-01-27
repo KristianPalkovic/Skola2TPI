@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class ArrayListy {
+
     public static void main(String[] args) {
         listy();
         listy2();
@@ -93,7 +94,6 @@ public class ArrayListy {
         System.out.println(" su polia rovnake: "+pole1.equals(pole2));
         System.out.println(pole1);
         System.out.println(pole2);
-
 
     }
 }
