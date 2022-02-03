@@ -1,8 +1,10 @@
 package druhypolrok.tyzden04;
 
 import com.sun.deploy.panel.ExceptionListDialog;
+import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class UlohaArrayList {
 
@@ -12,7 +14,7 @@ public class UlohaArrayList {
 
         pridanie(testovaciePole, "prvý záznam");
         System.out.println(testovaciePole);
-
+        zmenaElementu(testovaciePole,0,"druhy zaznam");
     }
 
     public static void pridanie(ArrayList<String> pole, String stringNaPridanie){
@@ -38,17 +40,58 @@ public class UlohaArrayList {
     }
 
     public static String velkostPola(ArrayList<String> pole){
-
+        //int velkostPola = pole.size();
         //vráti text so znenim "Velkost pola je: XXXX "
-        return null;
+        return "Velkost pola je: " + pole.size();
     }
 
-    public static String vlozenieElementu(ArrayList<String> pole, int index, String element){
+    public static String obsahujeElement(ArrayList<String> pole, String element){
+
+        boolean x = pole.contains(element);
+        String y = "";
+        if(x){
+            y = ("obsahuje " + element);
+        }else{
+            y = ("neobsahuje " + element);
+        }
+
+       return y;
+    }
+    public static String zmenaElementu(ArrayList<String> pole, int index, String element){
+
+        /*pole.add("Fero");
+        pole.add("Gregor");
+        pole.add("Robert");
+        pole.add("Roman");
+        pole.add("Erik");
+        pole.add("Adam");
+
+        boolean x = pole.contains("Fero");
+
+        if(x){
+            System.out.println("vlozeny na index");
+        }else{
+            System.out.println("chybny index mimo rozsahu pola");
+        }
+
+        x = pole.contains("Matej");
+
+        if(x){
+            System.out.println("vlozeny na index");
+        }else{
+            System.out.println("chybny index mimo rozsahu pola");
+        }*/
+
+        if(pole.size() > index){
+            pole.set(index,element);
+            return "Vlozeny" + element + " index";
+        }else{
+            return "Chybny index mimo rozsahu pola";
+        }
+
         //set sa pouzije ale najprv treba skontrolovat ci dany index patri do rozmedzia daneho
         //pola. ak bude vacsi vypisete "chybny index mimo rozsahu pola" ak to bude ok:
         //" vlozeny XXXX na index XXXX"
-
-        return element;
     }
 
     public static <E> void test (ArrayList<E> pole){
