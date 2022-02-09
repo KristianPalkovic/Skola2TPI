@@ -21,6 +21,7 @@ public class UlohaArrayList {
         myBoolean2.add(false);
         System.out.println(myBoolean2);
 
+        System.out.println("---------------------------------------------------------------");
         // List<Boolean> test = new ArrayList(Arrays.asList(myBoolean));
 
         long L[] = new long []{3_000_000_000L};
@@ -30,7 +31,7 @@ public class UlohaArrayList {
         x.add(47_000_000_000L);
         System.out.println(x);
 
-        //--------------------------------------------------------------------
+        System.out.println("---------------------------------------------------------------");
 
         int[] y = new int[]{1,2,3,4,5,6};
         ArrayList<Integer> u = new ArrayList<>();
@@ -39,7 +40,7 @@ public class UlohaArrayList {
         u.add(9);
         System.out.println(u);
 
-        //--------------------------------------------------------------------
+        System.out.println("---------------------------------------------------------------");
 
         short[] i = new short[]{1,2,3,4,5};
         ArrayList<Short> o = new ArrayList<>();
@@ -48,7 +49,7 @@ public class UlohaArrayList {
         o.add((short) 8);
         System.out.println(o);
 
-        //--------------------------------------------------------------------
+        System.out.println("---------------------------------------------------------------");
 
         float[] p = new float[]{45F,25F};
         ArrayList<Float> k = new ArrayList<>();
@@ -57,7 +58,7 @@ public class UlohaArrayList {
         k.add(74F);
         System.out.println(k);
 
-        //--------------------------------------------------------------------
+        System.out.println("---------------------------------------------------------------");
 
         double[] j = new double[]{8.45,4.85,7.13};
         ArrayList<Double> m = new ArrayList<>();
@@ -66,7 +67,7 @@ public class UlohaArrayList {
         m.add(74.04);
         System.out.println(m);
 
-        //--------------------------------------------------------------------
+        System.out.println("---------------------------------------------------------------");
 
         char[] h = new char[]{};
         ArrayList<Character> n = new ArrayList<>();
@@ -75,7 +76,7 @@ public class UlohaArrayList {
         n.add('I');
         System.out.println(n);
 
-        //--------------------------------------------------------------------
+        System.out.println("---------------------------------------------------------------");
 
         byte[] b = new byte[]{15,81,100};
         ArrayList<Byte> g = new ArrayList<>();
@@ -83,6 +84,8 @@ public class UlohaArrayList {
         g.add((byte) 47);
         g.add((byte) 10);
         System.out.println(g);
+
+        System.out.println("---------------------------------------------------------------");
     }
     /*
             *boolean[] myBoolean1 = new boolean[]{false,true,false};
