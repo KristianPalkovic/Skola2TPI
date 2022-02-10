@@ -34,7 +34,7 @@ public class UlohaArrayList02 {
 
             System.out.println("element " + "už existuje v poli");
         }else{
-            pole.add();
+            //pole.add();
             System.out.println("element " + "pridaný");
 
         }
