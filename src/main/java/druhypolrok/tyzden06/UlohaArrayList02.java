@@ -18,7 +18,7 @@ public class UlohaArrayList02 {
     }
     private static void vypisaniePola(){
         //vypiste pole do konzoly
-        System.out.println();
+        System.out.println(pole);
     }
 
     private static void zoradeniePola(){
