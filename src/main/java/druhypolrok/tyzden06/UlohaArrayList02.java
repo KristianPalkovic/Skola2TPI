@@ -36,7 +36,6 @@ public class UlohaArrayList02 {
         }else{
             //pole.add();
             System.out.println("element " + "pridaný");
-
         }
     }
 }
