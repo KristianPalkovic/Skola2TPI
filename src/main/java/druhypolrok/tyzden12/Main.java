@@ -12,5 +12,7 @@ public class Main {
         fifinka.HraSa();
         dunco.hraSaSFenou(max);
         dunco.hraSaSFenou(fifinka);
+        System.out.println(dunco.getRasa());
+        System.out.println(fifinka.getRasa());
     }
 }
