@@ -5,11 +5,11 @@ import java.util.List;
 
 public class Pornoherec {
 
-    String menoPriezvisko;
-    String pseudonym;
-    double dlzkaCiciny;
-    double objemVacku;
-    double dostrek;
+    public String menoPriezvisko;
+    public String pseudonym;
+    public double dlzkaCiciny;
+    public double objemVacku;
+    public double dostrek;
     List<String> filmy = new ArrayList<>();
     double objemjednehoStriku = 6.0;
 
