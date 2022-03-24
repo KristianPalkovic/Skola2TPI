@@ -1,10 +1,10 @@
 package druhypolrok.tyzden12;
 
 public class Pes {
-    String rasa;
-    double vek;
-    String pohlavie;
-    String meno;
+    private String rasa;
+    private double vek;
+    private String pohlavie;
+    private String meno;
 
     public Pes(){
 
@@ -19,6 +19,10 @@ public class Pes {
 
     public void HraSa(){
         System.out.println(meno + " sa hrá");
+    }
+
+    public String getRasa(){
+        return this.rasa;
     }
 
     @Override
