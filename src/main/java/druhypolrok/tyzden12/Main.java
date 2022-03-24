@@ -14,5 +14,8 @@ public class Main {
         dunco.hraSaSFenou(fifinka);
         System.out.println(dunco.getRasa());
         System.out.println(fifinka.getRasa());
+
+        dunco.setVek(99);
+        fifinka.setVek(60);
     }
 }

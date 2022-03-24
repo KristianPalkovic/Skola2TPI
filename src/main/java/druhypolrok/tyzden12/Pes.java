@@ -2,7 +2,7 @@ package druhypolrok.tyzden12;
 
 public class Pes {
     private String rasa;
-    private double vek;
+    private int vek;
     private String pohlavie;
     private String meno;
 
@@ -23,6 +23,14 @@ public class Pes {
 
     public String getRasa(){
         return this.rasa;
+    }
+
+    public int getVek(){
+        return vek;
+    }
+
+    public void setVek(int vek){
+        this.vek = vek;
     }
 
     @Override
