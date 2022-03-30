@@ -15,7 +15,12 @@ public class Main {
         System.out.println(dunco.getRasa());
         System.out.println(fifinka.getRasa());
 
-        dunco.setVek(99);
+        dunco.setVek(-2);
         fifinka.setVek(60);
+
+        System.out.println(dunco.getRasa());
+        System.out.println(dunco.getVek());
+        System.out.println(dunco.getMeno());
+        System.out.println(dunco.getPohlavie());
     }
 }

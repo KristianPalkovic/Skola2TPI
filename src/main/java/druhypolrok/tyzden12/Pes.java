@@ -29,8 +29,17 @@ public class Pes {
         return vek;
     }
 
+    public String getMeno(){ return meno;}
+
+    public String getPohlavie(){return pohlavie;}
+
     public void setVek(int vek){
-        this.vek = vek;
+        if(vek < 0){
+            System.out.println("Vek " + meno + " nie je platný");
+        }else{
+           // System.out.println("Vek je: " + vek);
+            this.vek = vek;
+        }
     }
 
     @Override
