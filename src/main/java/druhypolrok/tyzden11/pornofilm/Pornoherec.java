@@ -31,6 +31,22 @@ public class Pornoherec {
         dostrek = dostrekConstructor;
     }
 
+    public String getMenoPriezvisko(){
+        return menoPriezvisko;
+    }
+    public String getPseudonym(){
+        return pseudonym;
+    }
+    public double getDlzkaCiciny(){
+        return dlzkaCiciny;
+    }
+    public double getObjemVacku(){
+        return objemVacku;
+    }
+    public double getDostrek(){
+        return dostrek;
+    }
+
     @Override
     public String toString() {
         return "Pornoherec{" +

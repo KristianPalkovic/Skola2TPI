@@ -25,6 +25,18 @@ public class Pornoherecka {
         this.dostrik = dostrik;
         this.hlbkaChacharuse = hlbkaChacharuse;
     }
+    public double getDostrik(){
+        return dostrik;
+    }
+    public double getHlbka(){
+        return hlbkaChacharuse;
+    }
+    public String getMenoPriezvisko(){
+        return menoPriezvisko;
+    }
+    public String getPseudonym(){
+        return pseudonym;
+    }
 
     @Override
     public String toString() {

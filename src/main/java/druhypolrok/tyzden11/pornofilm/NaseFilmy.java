@@ -30,5 +30,16 @@ public class NaseFilmy {
         for (Pornoherecka phky : pornoherecky){
             System.out.println("hlbka chacharuse " + phky.menoPriezvisko + " je " + phky.hlbkaChacharuse);
         }
+
+        System.out.println("Objem = " + jarko.getObjemVacku());
+        System.out.println("Dĺžka = " + jarko.getDlzkaCiciny());
+        System.out.println("Dostrek = " + jarko.getDostrek());
+        System.out.println("Meno a Priezvisko = " + jarko.getMenoPriezvisko());
+        System.out.println("Pseudonym = " + jarko.getPseudonym());
+
+        System.out.println("Meno = " + evka.getMenoPriezvisko());
+        System.out.println("Dostrik = " + evka.getDostrik());
+        System.out.println("Hlbka = " + evka.getHlbka());
+        System.out.println("Pseudonym = " + evka.getPseudonym());
     }
 }
