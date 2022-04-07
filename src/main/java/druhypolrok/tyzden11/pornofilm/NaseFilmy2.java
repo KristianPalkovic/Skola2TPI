@@ -1,22 +1,28 @@
 package druhypolrok.tyzden11.pornofilm;
 
-import java.util.List;
+import static druhypolrok.tyzden11.pornofilm.Commons.pornoHerci;
+import static druhypolrok.tyzden11.pornofilm.Commons.pornoHerecky;
+
 public class NaseFilmy2 {
 
-    public static void main(String[] args) {
+    public static class Nasefilmy2 {
 
-        List<Pornoherecka> Pornoherecka = pornoherecky();
+        public static void main(String[] args) {
 
-        Pornoherecka pornoherecka = pornohereckas.get(0);
+            druhypolrok.tyzden11.pornofilm.PornoHerecka pornoHerecka = pornoHerecky().get(0);
 
-        pornoherecka.robiGangbang(pornoherci());
 
-    }
+            getObjemVacku();
 
-    private static void getObjemVacku(){
-        pornoherci().forEach(ph -> System.out.println(ph.getObjemVacku()));
+            pornoHerecka.robiGangbang(pornoHerci());
 
-        //sout bude "xyz sa zucastnil na obstastneni pornoherecky menom...."
-        //trba odcitat 6.0 z objemu vacku kazdeho pornoherca.
+            getObjemVacku();
+
+        }
+
+        private static void getObjemVacku() {
+            pornoHerci().forEach(ph -> System.out.println(ph.getObjemVacku()));
+
+        }
     }
 }
