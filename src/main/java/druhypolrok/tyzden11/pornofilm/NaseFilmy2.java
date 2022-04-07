@@ -1,5 +1,8 @@
 package druhypolrok.tyzden11.pornofilm;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import static druhypolrok.tyzden11.pornofilm.Commons.pornoHerci;
 import static druhypolrok.tyzden11.pornofilm.Commons.pornoHerecky;
 
@@ -9,14 +12,13 @@ public class NaseFilmy2 {
 
         public static void main(String[] args) {
 
-            druhypolrok.tyzden11.pornofilm.PornoHerecka pornoHerecka = pornoHerecky().get(0);
+            Pornoherecka PornoHerecka = pornoHerecky().get(0);
+            ArrayList<Pornoherec> herci = (ArrayList) pornoHerci();
+            herci.forEach(ph -> System.out.println(ph.getObjemVacku()));
 
+            pornoherecka.robiGangbang(herci);
 
-            getObjemVacku();
-
-            pornoHerecka.robiGangbang(pornoHerci());
-
-            getObjemVacku();
+            herci.forEach(ph -> System.out.println(ph.getObjemVacku()));
 
         }
 

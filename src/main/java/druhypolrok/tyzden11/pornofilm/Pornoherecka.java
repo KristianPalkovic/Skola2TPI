@@ -38,6 +38,14 @@ public class Pornoherecka {
         return pseudonym;
     }
 
+    public void robiGangbang(List<Pornoherec> pornoherci){
+        for (Pornoherec pornoherec: pornoherci){
+            System.out.println(pornoherec.getMenoPriezvisko() + " sa zucastnil na obstastneni pornoherecky menom" +
+                    menoPriezvisko);
+            pornoherec.setObjemVacku(pornoherec.getObjemVacku() - 6.0);
+        }
+    }
+
     @Override
     public String toString() {
         return "Pornoherecka{" +
