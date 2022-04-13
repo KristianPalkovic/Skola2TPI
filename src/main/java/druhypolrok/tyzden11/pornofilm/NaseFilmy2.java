@@ -12,13 +12,17 @@ public class NaseFilmy2 {
 
         public static void main(String[] args) {
 
-            Pornoherecka PornoHerecka = pornoHerecky().get(0);
+            Pornoherecka pornoHerecka = pornoHerecky().get(0);
             ArrayList<Pornoherec> herci = (ArrayList) pornoHerci();
-            herci.forEach(ph -> System.out.println(ph.getObjemVacku()));
+            //herci.forEach(ph -> System.out.println(ph.getObjemVacku()));
 
-            pornoherecka.robiGangbang(herci);
+            pornoHerecka.robiGangbang(herci);
 
-            herci.forEach(ph -> System.out.println(ph.getObjemVacku()));
+            //herci.forEach(ph -> System.out.println(ph.getObjemVacku()));
+
+            for(){
+
+            }
 
         }
 
