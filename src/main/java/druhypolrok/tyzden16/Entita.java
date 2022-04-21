@@ -9,6 +9,7 @@ public class Entita {
         this.vek = vek;
         this.meno = meno;
         this.vyska = vyska;
+        System.out.println("Vytvori sa entita");
     }
 
     public int getVek() {
