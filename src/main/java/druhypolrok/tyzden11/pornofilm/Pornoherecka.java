@@ -42,7 +42,7 @@ public class Pornoherecka {
         for (Pornoherec pornoherec: pornoherci){
             System.out.println(pornoherec.getMenoPriezvisko() + " sa zucastnil na obstastneni pornoherecky menom" +
                     menoPriezvisko);
-            pornoherec.setObjemVacku(pornoherec.getObjemVacku() - 6.0);
+            //pornoherec.setObjemVacku(pornoherec.getObjemVacku() - 6.0);
         }
     }
 
