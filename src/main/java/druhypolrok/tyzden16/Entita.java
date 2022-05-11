@@ -1,15 +1,20 @@
 package druhypolrok.tyzden16;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Entita {
+
     private int vek;
     private String meno;
     private int vyska;
 
-    public Entita(int vek, String meno, int vyska){
+
+    public Entita(int vek, String meno, int vyska) {
         this.vek = vek;
         this.meno = meno;
         this.vyska = vyska;
-        System.out.println("Vytvori sa entita");
+        System.out.println("vytvori sa entita");
     }
 
     public int getVek() {
@@ -35,4 +40,5 @@ public class Entita {
     public void setVyska(int vyska) {
         this.vyska = vyska;
     }
+
 }
