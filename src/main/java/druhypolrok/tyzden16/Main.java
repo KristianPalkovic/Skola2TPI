@@ -38,12 +38,17 @@ public class Main {
 
         Zena[] test = new Zena[10];
 
-        List<Entita> entita = new ArrayList<>(); //entita: size = 10
-            entita.addAll(zeny); //zeny: size = 5
-            entita.addAll(muzi); //muzi: size = 5
-        System.out.println(entita.toString()); //entita: size = 10
+        List<Entita> celyZoznam = new ArrayList<>(); //entita: size = 10
+        celyZoznam.addAll(zeny); //zeny: size = 5
+        celyZoznam.addAll(muzi); //muzi: size = 5
+        System.out.println(celyZoznam.toString()); //entita: size = 10
 
+        for(Entita a : celyZoznam){
+            a.pohyb();
+        }
 
-
+        for(Entita b : celyZoznam){
+            b.spanok();
+        }
     }
 }

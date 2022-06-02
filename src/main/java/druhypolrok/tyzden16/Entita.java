@@ -41,4 +41,11 @@ public class Entita {
         this.vyska = vyska;
     }
 
+    public void pohyb(){
+        System.out.println("entita sa hybe");
+    }
+
+    public void spanok(){
+        System.out.println("entita prdi do duchen");
+    }
 }
